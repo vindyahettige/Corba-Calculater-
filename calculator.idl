@@ -1,0 +1,15 @@
+// calculator.idl
+
+module calculator
+{
+  interface simplecal
+  {
+    double addfn(in double a,in double b);
+    double subfn(in double a,in double b);
+    double mulfn(in double a,in double b);
+    double divfn(in double a,in double b);
+    double modfn(in double a,in double b);
+    double sqrtfn(in double a);
+    double powerfn(in double a,in double b);
+  };
+};
